@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 199, 199);
+    font-size: 14px;
+    color: rgba(34, 0, 34, 0.712);
+}
+
+.container {
+    background-color: rgb(180, 108, 180);
+    width: 300px;
+    height: auto;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.title {
+    color: rgba(34, 0, 34, 0.712);
+    font-style: italic;
+    border-bottom: 2px solid grey;
+    font-weight: bolder;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#profilePicture {
+    margin: 20px 75px;
+    align-items: center;
+    justify-content: center;
+}
+#profilePicture img {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+#userName {
+    color: gold;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#userDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(224, 224, 224);
+    margin: 0;
+}
+.github {
+    cursor: pointer;
+    width: 50px;
+    font-size: 14px;
+}
+.github:hover {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.712);
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+}
+.current {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.current div {
+    width: 200px;
+}
