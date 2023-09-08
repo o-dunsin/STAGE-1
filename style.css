@@ -59,11 +59,6 @@ body {
 .github a:hover {
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
-    width: 50px;
-    height: 20px;
-    border-radius: 5px;
-    padding: 10px;
-    border-bottom: 1px solid silver;
 }
 .current {
     text-align: center;
