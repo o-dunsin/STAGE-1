@@ -50,12 +50,14 @@ body {
     color: rgb(224, 224, 224);
     margin: 0;
 }
-.github {
+.github a {
     cursor: pointer;
     width: 50px;
+    color: rgb(224, 224, 224);
     font-size: 14px;
+    text-decoration: none;
 }
-.github:hover {
+.github a:hover {
     background-color: white;
     color:rgba(0, 0, 0, 0.712);
     width: 50px;
