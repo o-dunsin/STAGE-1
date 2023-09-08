@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     background-color: rgb(199, 199, 199);
     font-size: 14px;
-    color: rgba(34, 0, 34, 0.712);
+    color:  rgb(224, 224, 224);
 }
 
 .container {
@@ -16,28 +16,20 @@ body {
     padding: 10px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
-.title {
-    color: rgba(34, 0, 34, 0.712);
-    font-style: italic;
-    border-bottom: 2px solid grey;
-    font-weight: bolder;
-    padding-left: 10px;
-    font-size: 20px;
-}
 #profilePicture {
-    margin: 20px 75px;
+    margin: 20px 48px;
     align-items: center;
     justify-content: center;
 }
 #profilePicture img {
-    max-width: 150px;
-    height: 150px;
+    max-width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: aliceblue;
 }
 #userName {
     color: gold;
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,16 +42,23 @@ body {
     color: rgb(224, 224, 224);
     margin: 0;
 }
+.github {
+    margin: 20px 100px;
+}
 .github a {
     cursor: pointer;
+    background-color: white;
+    color:rgba(0, 0, 0, 0.712);
     width: 50px;
-    color: rgb(224, 224, 224);
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
     font-size: 14px;
     text-decoration: none;
 }
 .github a:hover {
-    background-color: white;
-    color:rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
     width: 50px;
     height: 20px;
     border-radius: 5px;
@@ -67,10 +66,6 @@ body {
     border-bottom: 1px solid silver;
 }
 .current {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.current div {
-    width: 200px;
+    text-align: center;
+    font-size: 20px;
 }

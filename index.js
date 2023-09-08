@@ -3,7 +3,7 @@ function updateDay () {
     const currentDate = new Date();
     const currentDay = daysOfWeek[currentDate.getDay()];
 
-    document.querySelector('[data-attribute="day"]').textContent = `Day of the week: ${currentDay}`;
+    document.querySelector('[data-attribute="day"]').textContent = ` ${currentDay}`;
 }
 
 // Update the day of the week immediately and then refresh every 24 hours
@@ -17,7 +17,7 @@ function updateTime() {
     const utcTimeString = currentUTC.toUTCString();
     const utcTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
     
-    utcTimeElement.textContent = `Time: ${utcTimeString}${utcTimeMilliseconds}`;
+    utcTimeElement.textContent = ` ${utcTimeMilliseconds}`;
 }
 
 // Update the UTC time immediately and then refresh every second
