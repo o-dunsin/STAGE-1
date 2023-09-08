@@ -3,7 +3,7 @@ function updateDay () {
     const currentDate = new Date();
     const currentDay = daysOfWeek[currentDate.getDay()];
 
-    document.querySelector('[data-attribute="day"]').textContent = ` ${currentDay}`;
+    document.querySelector('[data-attribute="currentDayOfTheWeek"]').textContent = ` ${currentDay}`;
 }
 
 // Update the day of the week immediately and then refresh every 24 hours
